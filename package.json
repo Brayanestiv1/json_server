@@ -1,0 +1,24 @@
+{
+  "name": "json-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm install && json-server --watch db.json --port ${PORT:-3000} --static ./empty",
+    "postinstall": "chmod +x ./node_modules/.bin/json-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brayanestiv1/json-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Brayanestiv1/json-server/issues"
+  },
+  "homepage": "https://github.com/Brayanestiv1/json-server#readme",
+  "dependencies": {
+    "json-server": "^1.0.0-beta.3"
+}
+}
